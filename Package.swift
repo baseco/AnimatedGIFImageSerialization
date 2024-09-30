@@ -17,9 +17,9 @@ let package = Package(
             name: "AnimatedGIFImageSerialization",
             dependencies: [],
             path: "AnimatedGIFImageSerialization",
-            publicHeadersPath: ".",
+            publicHeadersPath: "include",
             cSettings: [
-                .headerSearchPath(".")
+                .headerSearchPath("include/AnimatedGIFImageSerialization")
             ],
             linkerSettings: [
                 .linkedFramework("MobileCoreServices"),
